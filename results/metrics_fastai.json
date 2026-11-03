@@ -1,14 +1,14 @@
 {
   "model": "fastai",
-  "RMSE": 0.03670294323641882,
-  "MAE": 0.02521161584672825,
-  "R2": 0.034627062652132,
+  "RMSE": 0.036703235545565385,
+  "MAE": 0.025211633725110642,
+  "R2": 0.0346113489727532,
   "Directional_Accuracy": 0.592814371257485,
-  "Baseline_RMSE": 0.03737690505929932,
-  "Baseline_MAE": 0.025582980677664884,
+  "Baseline_RMSE": 0.037376898528065326,
+  "Baseline_MAE": 0.02558297501644675,
   "Baseline_Directional_Accuracy": 0.562874251497006,
-  "train_seconds": 2.84,
-  "expected_weekly_log_return": 0.01592542603611946,
-  "expected_weekly_return_pct": 1.6052911487627108,
-  "expected_annualised_return_pct": 128.9016281503818
+  "train_seconds": 2.73,
+  "expected_weekly_log_return": 0.01593649759888649,
+  "expected_weekly_return_pct": 1.6064160843485276,
+  "expected_annualised_return_pct": 129.03344962761864
 }

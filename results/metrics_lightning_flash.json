@@ -1,14 +1,14 @@
 {
   "model": "lightning_flash",
-  "RMSE": 0.037287142991300905,
-  "MAE": 0.026319468463491508,
-  "R2": 0.0036508555198433434,
-  "Directional_Accuracy": 0.6107784431137725,
-  "Baseline_RMSE": 0.03737690505929929,
-  "Baseline_MAE": 0.025582980677664843,
+  "RMSE": 0.037250390261870846,
+  "MAE": 0.026238783920520533,
+  "R2": 0.005613678791776988,
+  "Directional_Accuracy": 0.6167664670658682,
+  "Baseline_RMSE": 0.03737689852806529,
+  "Baseline_MAE": 0.02558297501644671,
   "Baseline_Directional_Accuracy": 0.562874251497006,
-  "train_seconds": 1.85,
-  "expected_weekly_log_return": 0.005150416493415832,
-  "expected_weekly_return_pct": 0.5163702688463001,
-  "expected_annualised_return_pct": 30.7114005453186
+  "train_seconds": 1.14,
+  "expected_weekly_log_return": 0.0047875592112541195,
+  "expected_weekly_return_pct": 0.47990378838189685,
+  "expected_annualised_return_pct": 28.268184692391984
 }
