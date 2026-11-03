@@ -1,0 +1,9 @@
+data/
+figures/
+results/
+__pycache__/
+.venv/
+.ipynb_checkpoints/
+models/
+lightning_logs/
+.venv-flash/

@@ -1,0 +1,12 @@
+# Separate environment (Python 3.10) for step 08 only.
+# Lightning Flash is archived, so these exact versions are pinned (tested together).
+lightning-flash[tabular]==0.8.2
+torch==1.13.1
+pytorch-lightning==1.9.5
+pytorch-tabular==1.0.2
+torchmetrics==0.10.3
+pandas==1.5.3
+numpy==1.26.4
+scikit-learn==1.1.3
+setuptools<70
+requests

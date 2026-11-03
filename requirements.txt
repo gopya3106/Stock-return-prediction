@@ -1,0 +1,14 @@
+# Main environment (Python 3.12): steps 01-07 and 09
+yfinance>=0.2.40
+pandas>=2.0
+numpy
+matplotlib
+seaborn
+statsmodels
+scikit-learn
+xgboost>=2.0
+torch
+keras>=3.0
+fastai>=2.7
+pytorch-tabnet>=4.1
+jupyter
