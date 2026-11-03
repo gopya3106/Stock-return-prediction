@@ -1,0 +1,21 @@
+{
+  "model": "xgboost",
+  "RMSE": 0.0373041437255025,
+  "MAE": 0.02569907166677291,
+  "R2": 0.0027420957096909726,
+  "Directional_Accuracy": 0.562874251497006,
+  "Baseline_RMSE": 0.03737690505929932,
+  "Baseline_MAE": 0.025582980677664884,
+  "Baseline_Directional_Accuracy": 0.562874251497006,
+  "train_seconds": 18.07,
+  "expected_weekly_log_return": 0.004845776595175266,
+  "expected_weekly_return_pct": 0.4857536357968595,
+  "expected_annualised_return_pct": 28.657079831246524,
+  "best_params": {
+    "colsample_bytree": 0.8,
+    "learning_rate": 0.01,
+    "max_depth": 2,
+    "n_estimators": 100,
+    "subsample": 0.8
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "model": "keras",
+  "RMSE": 0.038781386238479675,
+  "MAE": 0.029264343874060444,
+  "R2": -0.07780450252365045,
+  "Directional_Accuracy": 0.5329341317365269,
+  "Baseline_RMSE": 0.03737690505929932,
+  "Baseline_MAE": 0.025582980677664884,
+  "Baseline_Directional_Accuracy": 0.562874251497006,
+  "train_seconds": 14.07,
+  "expected_weekly_log_return": 0.051370538771152496,
+  "expected_weekly_return_pct": 5.271289196529061,
+  "expected_annualised_return_pct": 1345.8290919889403
+}

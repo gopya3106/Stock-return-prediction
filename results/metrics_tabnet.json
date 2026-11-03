@@ -1,0 +1,14 @@
+{
+  "model": "tabnet",
+  "RMSE": 0.048982029748692556,
+  "MAE": 0.03164672245054978,
+  "R2": -0.7193602866407942,
+  "Directional_Accuracy": 0.47305389221556887,
+  "Baseline_RMSE": 0.03737690505929932,
+  "Baseline_MAE": 0.025582980677664884,
+  "Baseline_Directional_Accuracy": 0.562874251497006,
+  "train_seconds": 7.62,
+  "expected_weekly_log_return": -0.013552707619965076,
+  "expected_weekly_return_pct": -1.3461283160407733,
+  "expected_annualised_return_pct": -50.57633343424962
+}

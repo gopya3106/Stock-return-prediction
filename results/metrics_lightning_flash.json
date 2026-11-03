@@ -1,0 +1,14 @@
+{
+  "model": "lightning_flash",
+  "RMSE": 0.037287142991300905,
+  "MAE": 0.026319468463491508,
+  "R2": 0.0036508555198433434,
+  "Directional_Accuracy": 0.6107784431137725,
+  "Baseline_RMSE": 0.03737690505929929,
+  "Baseline_MAE": 0.025582980677664843,
+  "Baseline_Directional_Accuracy": 0.562874251497006,
+  "train_seconds": 1.85,
+  "expected_weekly_log_return": 0.005150416493415832,
+  "expected_weekly_return_pct": 0.5163702688463001,
+  "expected_annualised_return_pct": 30.7114005453186
+}
