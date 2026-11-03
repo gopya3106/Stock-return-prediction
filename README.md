@@ -33,7 +33,7 @@ Predicting the **next-week return of Microsoft (MSFT)** from its own past return
 | Keras | 0.0373 | 0.0259 | 0.005 | 61.1% |
 | XGBoost | 0.0373 | 0.0257 | 0.003 | 56.3% |
 | PyTorch + TabNet | 0.0378 | 0.0267 | -0.023 | 51.5% |
-
+Full table: `results/comparison.csv`. Charts: `figures/`.
 
 Weekly stock returns are mostly noise, so every model lands close to the baseline. fastai is the only one ahead on every metric, by a small margin over 167 test weeks.
 
