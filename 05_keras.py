@@ -23,6 +23,7 @@ keras.utils.set_random_seed(RANDOM_STATE)
 X_train, X_test, y_train, y_test, X_latest = load_data()
 X_train_s, X_test_s, X_latest_s = scale(X_train, X_test, X_latest)
 X_tr, X_val, y_tr, y_val = validation_split(X_train_s, y_train)
+SCALE = 100   # train on returns in percent, same as fastai and Flash
 
 model = keras.Sequential([
     keras.Input(shape=(X_train.shape[1],)),
@@ -36,17 +37,17 @@ model.summary()
 
 start = time.time()
 history = model.fit(
-    X_tr.values, y_tr.values,
-    validation_data=(X_val.values, y_val.values),
+    X_tr.values, y_tr.values * SCALE,
+    validation_data=(X_val.values, y_val.values * SCALE),
     epochs=300, batch_size=32, verbose=0,
     callbacks=[keras.callbacks.EarlyStopping(patience=20, restore_best_weights=True)],
 )
 train_seconds = time.time() - start
 print(f"Stopped after {len(history.history['loss'])} epochs")
 
-y_pred = model.predict(X_test_s.values, verbose=0).ravel()
+y_pred = model.predict(X_test_s.values, verbose=0).ravel() / SCALE
 metrics = evaluate(y_test, y_pred, y_train)
-expected = model.predict(X_latest_s.values, verbose=0).ravel()
+expected = model.predict(X_latest_s.values, verbose=0).ravel() / SCALE
 save_results("keras", metrics, y_test, y_pred, expected, train_seconds)
 
 # Learning curve: shows over-fitting if validation loss rises while training loss falls

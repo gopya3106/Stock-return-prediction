@@ -1,10 +1,11 @@
 """Step 1: download daily closing prices from Yahoo Finance and save them."""
 import os
-import warnings
-warnings.filterwarnings("ignore")   # hides harmless pandas-deprecation warnings from inside yfinance
 
 import pandas as pd
 import yfinance as yf
+
+import warnings
+warnings.filterwarnings("ignore")   # yfinance re-enables warnings on import, so silence them after it
 
 from config import TICKERS, START_DATE, END_DATE, RAW_PATH
 
